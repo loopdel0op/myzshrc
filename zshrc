@@ -21,9 +21,11 @@ alias ls="ls --color"
 alias gpp="g++"
 alias slep="xset dpms force off"
 
-export LFS=/home/loopdeloop/Documents/lfs/mnt
+#export LFS=/home/loopdeloop/Documents/lfs/mnt
+#You have come a long way :) - 16-12-2025
 
-PROMPT="%F{red}[%f%F{red}%T%f%F{red}]%f%F{red}%n%f%F{red}@%f%F{red}%m%f:%F{blue}%~%f#"
+
+PROMPT="%F{green}[%f%F{green}%T%f%F{green}]%f%F{green}%n%f%F{green}@%f%F{green}%m%f:%F{green}%~%f#"
 
 bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
